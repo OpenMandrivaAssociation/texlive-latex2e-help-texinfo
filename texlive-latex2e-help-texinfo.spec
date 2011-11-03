@@ -1,3 +1,9 @@
+# revision 22463
+# category Package
+# catalog-ctan /info/latex2e-help-texinfo
+# catalog-date 2011-05-13 02:24:29 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-latex2e-help-texinfo
 Version:	20110513
 Release:	1
@@ -35,6 +41,7 @@ distribution are derived from the Texinfo source, as usual.
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.xml
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/ltx-help.el
 %doc %{_infodir}/latex2e.info*
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_infodir}
 mv %{buildroot}%{_texmfdir}/doc/info/*.info %{buildroot}%{_infodir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
