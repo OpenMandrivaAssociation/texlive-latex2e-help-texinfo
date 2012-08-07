@@ -1,12 +1,12 @@
-# revision 22463
+# revision 26333
 # category Package
 # catalog-ctan /info/latex2e-help-texinfo
-# catalog-date 2011-05-13 02:24:29 +0200
+# catalog-date 2012-05-10 22:36:52 +0200
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-latex2e-help-texinfo
-Version:	20110513
-Release:	2
+Version:	20120510
+Release:	1
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex2e-help-texinfo
