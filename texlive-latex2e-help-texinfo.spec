@@ -1,11 +1,11 @@
-# revision 26333
+# revision 30487
 # category Package
 # catalog-ctan /info/latex2e-help-texinfo
-# catalog-date 2012-05-10 22:36:52 +0200
+# catalog-date 2013-05-14 23:18:47 +0200
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-latex2e-help-texinfo
-Version:	20120510
+Version:	20130514
 Release:	1
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
@@ -27,6 +27,7 @@ distribution are derived from the Texinfo source, as usual.
 
 #-----------------------------------------------------------------------
 %files
+%doc %{_infodir}/latex2e.info*
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/ChangeLog
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/Makefile
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/NEWS
@@ -38,7 +39,6 @@ distribution are derived from the Texinfo source, as usual.
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.txt
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.xml
 %doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/ltx-help.el
-%doc %{_infodir}/latex2e.info*
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,25 +47,7 @@ distribution are derived from the Texinfo source, as usual.
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_texmfdistdir}
+cp -fpar doc %{buildroot}%{_texmfdistdir}
 mkdir -p %{buildroot}%{_infodir}
-mv %{buildroot}%{_texmfdir}/doc/info/*.info %{buildroot}%{_infodir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120510-1
-+ Revision: 812342
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110513-2
-+ Revision: 753128
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110513-1
-+ Revision: 718807
-- texlive-latex2e-help-texinfo
-- texlive-latex2e-help-texinfo
-- texlive-latex2e-help-texinfo
-- texlive-latex2e-help-texinfo
-
+mv %{buildroot}%{_texmfdistdir}/doc/info/*.info %{buildroot}%{_infodir}
