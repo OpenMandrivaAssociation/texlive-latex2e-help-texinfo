@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex2e-help-texinfo
 Version:	20140520
-Release:	3
+Release:	4
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex2e-help-texinfo
