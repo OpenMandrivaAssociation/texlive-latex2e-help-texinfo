@@ -1,12 +1,6 @@
-# revision 34128
-# category Package
-# catalog-ctan /info/latex2e-help-texinfo
-# catalog-date 2014-05-20 13:50:35 +0200
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-latex2e-help-texinfo
-Version:	20140520
-Release:	4
+Version:	20170809
+Release:	1
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex2e-help-texinfo
@@ -28,17 +22,7 @@ distribution are derived from the Texinfo source, as usual.
 #-----------------------------------------------------------------------
 %files
 %doc %{_infodir}/latex2e.info*
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/ChangeLog
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/Makefile
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/NEWS
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/README
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.dbk
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.html
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.pdf
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.texi
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.txt
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/latex2e.xml
-%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo/ltx-help.el
+%doc %{_texmfdistdir}/doc/latex/latex2e-help-texinfo
 
 #-----------------------------------------------------------------------
 %prep
