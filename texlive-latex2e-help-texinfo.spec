@@ -1,5 +1,5 @@
 Name:		texlive-latex2e-help-texinfo
-Version:	20170809
+Version:	20180606
 Release:	1
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
