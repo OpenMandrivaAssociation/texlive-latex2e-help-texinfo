@@ -1,6 +1,6 @@
 Name:		texlive-latex2e-help-texinfo
 Version:	20180705
-Release:	1
+Release:	2
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex2e-help-texinfo
