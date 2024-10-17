@@ -3,7 +3,7 @@ Version:	71252
 Release:	1
 Summary:	Unoffical reference manual covering LaTeX2e
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/latex2e-help-texinfo
+URL:		https://www.ctan.org/tex-archive/info/latex2e-help-texinfo
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex2e-help-texinfo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex2e-help-texinfo.doc.r%{version}.tar.xz
